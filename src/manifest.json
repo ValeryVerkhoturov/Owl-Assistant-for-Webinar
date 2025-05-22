@@ -7,6 +7,7 @@
   "permissions": [
     "storage",
     "*://events.webinar.ru/*",
+    "*://my.mts-link.ru/*",
     "webRequest",
     "webRequestBlocking"
   ],
@@ -34,7 +35,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://events.webinar.ru/*"
+        "*://events.webinar.ru/*",
+        "*://my.mts-link.ru/*"
       ],
       "js": [
         "pages/content-scripts/main.js",

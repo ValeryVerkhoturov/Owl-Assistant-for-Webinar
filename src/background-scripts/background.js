@@ -140,7 +140,7 @@
             }
             return {cancel: true};
         },
-        {urls: ["*://events.webinar.ru/*"], types: ["xmlhttprequest"]},
+        {urls: ["*://events.webinar.ru/*", "*://my.mts-link.ru/*"], types: ["xmlhttprequest"]},
         ['requestBody', 'blocking']
     );
 
